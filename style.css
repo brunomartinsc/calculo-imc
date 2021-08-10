@@ -1,0 +1,65 @@
+body{
+    background-color: cadetblue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 30%;
+    height: 35%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding: 5px;
+}
+
+.container h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+form label, form input, form button{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form label{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+form input{
+    font-size: 16px;
+    padding: 5px 0;
+    border: 1px solid rgba(182, 179, 179, 0.637);
+}
+
+input:focus{
+    outline: 1px solid rgb(43, 179, 184);
+    color: rgb(83, 81, 81);
+}
+
+form button{
+    font-size: 16px;
+    padding: 3px 0;
+}
+button:hover{
+    background-color: rgb(133, 195, 197);
+    cursor: pointer;
+}
+.positivo{
+    background-color: rgb(75, 75, 133);
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+}
+.negativo{
+    background-color: rgb(165, 75, 52);
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+}
